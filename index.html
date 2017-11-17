@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>CrazyShoppingCart</title>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+  <form id="order" method="post" action="">
+    <fieldset id="selections">
+        <legend><strong>Your Selections</strong></legend>
+
+        <p>
+            <label>Fruit:</label>
+            <select name="fruit">
+                <option value="">Make Selection</option>
+                <option value="3">Oranges ($3)</option>
+                <option value="3">Apples ($3)</option>
+            </select>
+            <input type="text" name="fruitquantity" value="Quantity" size="8">
+        </p>
+
+        <p>
+            <label>Meat:</label>
+            <select name="meat">
+                <option value="">Make Selection</option>
+                <option value="5">Steak ($5)</option>
+                <option value="5">Salmon ($5)</option>
+            </select>
+            <input type="text" name="meatquantity" value="Quantity" size="8">
+        </p>
+
+        <p>
+            <label>Vegetables</label>
+            <select name="vegetables">
+                <option value="">Make Selection</option>
+                <option value="3">Beets ($3)</option>
+                <option value="2">Potatoes ($2)</option>
+            </select>
+            <input type="text" name="vegetablesquantity" value="Quantity" size="8">
+        </p>
+
+        <p>
+            <label>Dairy:</label>
+            <select name="dairy">
+                <option value="">Make Selection</option>
+                <option value="3">Sharp Cheddar ($3)</option>
+                <option value="4">Milk ($4)</option>
+            </select>
+            <input type="text" name="dairyquantity" value="Quantity" size="8">
+        </p>
+
+        <p>
+            <label>Alcohol:</label>
+            <select name="alcohol">
+                <option value="">Make Selection</option>
+                <option value="10">Wine - Dry ($10)</option>
+                <option value="8">Beer ($8)</option>
+            </select>
+            <input type="text" name="alcoholquantity" value="Quantity" size="8">
+        </p>
+    </fieldset>
+    <input type="submit" value="Place order">
+</form>
+<div id="totalPrice"></div>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
